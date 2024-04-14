@@ -8,8 +8,8 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	
 .feature {
-	background-color: yellowgreen;
-	color: greenyellow;
+	background-color: rgb(125, 176, 21);
+	color: rgb(202, 215, 221);
 	}
 	
 .article-intro {
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-blurb {
     padding: 30px 0;
-    background-color: rgb(65, 124, 91);
+    background-color: rgb(112, 141, 204);
     color: black;
 }
     
