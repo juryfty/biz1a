@@ -9,8 +9,10 @@
 
     <title>kwiaciarnia</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap Core CSS && scripts -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+
 
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link href="css/custom.css" rel="stylesheet">
@@ -22,7 +24,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -47,13 +48,13 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="#">główna strona</a>
+                        <a href="#" data-target="#div1" class="nav-link">główna strona</a>
                     </li>
                     <li>
-                        <a href="#">podaruj kwiaty w prezęcie!</a>
+                        <a href="#" data-target="#div2" class="nav-link">podaruj kwiaty w prezęcie!</a>
                     </li>
                     <li>
-                        <a href="#">kup nasiona</a>
+                        <a href="*" data-target="#div3" class="nav-link">kup nasiona</a>
                     </li>
 					<li class="dropdown">
 						<a href="#">o nas</a>
@@ -79,58 +80,101 @@
 			<p>Odkryj radość z własnoręcznie hodowanych roślin, korzystając z naszych starannie wyselekcjonowanych nasion, które obiecują nie tylko piękno, ale i obfitość. Dołącz do naszej społeczności ogrodniczej i zobacz, jak prosty może być początek przygody z naturą!</p>
 			<p><a class="btn btn-default" href="#">przeglądaj teraz!</a></p>
 		</div>
-	</div> 
-    <!-- Content -->
-    <div class="container">
+	</div>
 
-        <!-- Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">nasza oferta
-                    <small>tekst 2 dfjkockbniujdvbvhjksb</small>
-                </h1>
-                <p>tekst 3 dtghnbhndzgthnaztedghnbznhjrhcgbvn fgxcbnxfdgbndfxgbnfgxnbdfgnbfgdbfgdcxbcxbdssbhsedhbrfdxzfrbghsdr</p>
-                <!--tekst do wpisania-->
+
+    <!-- Content -->
+    <div class="containerx" id="containerid">
+
+    <div class="pages">
+        <div id="div1" class="content-div">
+            <!-- Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">nasza oferta
+                        <small>tekst 2 dfjkockbniujdvbvhjksb</small>
+                    </h1>
+                    <p>tekst 3 dtghnbhndzgthnaztedghnbznhjrhcgbvn fgxcbnxfdgbndfxgbnfgxnbdfgnbfgdbfgdcxbcxbdssbhsedhbrfdxzfrbghsdr</p>
+                    <!--tekst do wpisania-->
+                </div>
+            </div>
+            <!-- /.row -->
+        
+
+            <!-- Feature Row -->
+            <div class="row">
+                <article class="col-md-4 article-intro">
+                    
+                        <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
+                    <h3>
+                        <a>tekst 3 sfvgdrfgreddgr</a>
+                    </h3>
+                    <p>tekst 4 srfthsthrsthrh</p>
+                </article>
+                <article class="col-md-4 article-intro">
+                    
+                        <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
+                    <h3>
+                        <a>tekst 5 sfxbhfrsdb</a>
+                    </h3>
+                    <p>tekst 6 sdefasefefr</p>
+                </article>
+
+                <article class="col-md-4 article-intro">
+                    <a>
+                        <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
+                    </a>
+                    <h3>
+                        <a>tekst 7 fswdf</a>
+                    </h3>
+                    <p>tekst 8fdvbggbhdfgbgbvfdg</p>
+                </article>
+            </div>
+            <!-- /.row -->
+        
+        </div>
+
+
+        <div id="div2" class="content-div" style="display:none;">Content for DIV 2</div>
+        
+        
+        <div id="div3" class="content-div" style="display:none;">
+                    <!-- Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Nasiona
+                    </h1>
+                    <h5>Zapraszamy do naszego sklepu, gdzie znajdziesz najwyższej jakości nasiona, które zapewnią Ci obfite
+                        plony i przepiękne ogrody. Nie przegap okazji, by stworzyć swój własny, kwiecisty zakątek z naszymi
+                        niezawodnymi nasionami – zacznij swoją przygodę z ogrodnictwem już dziś!</>
+                        <!--tekst do wpisania-->
+                </div>
+            </div>
+            <!--zestaw ksi-->
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://listek.pl/userdata/public/gfx/167/Rzezucha-nasiona-na-kielki-10g.jpg" class="card-img-top"
+                    width="300" height="350">
+                <div class="card-body">
+                    <h4><del>3.00zł</del> 2.40zł <span class="badge text-bg-secondary">przecena</span></h5>
+                        <p>Nie przegap naszej wyjątkowej oferty na nasiona rzeżuchy! Teraz tylko za 2,40 zł, możesz cieszyć się
+                            świeżymi, zdrowymi kiełkami prosto z Twojego parapetu. Zacznij uprawiać z nami i odkryj prostotę
+                            zdrowego jedzenia w najlepszej cenie!</p>
+                </div>
+                <!--rzezycha-->
+                <div class="card" style="width: 18rem;">
+                    <img src="https://listek.pl/userdata/public/gfx/167/Rzezucha-nasiona-na-kielki-10g.jpg" class="card-img-top"
+                        width="300" height="350">
+                    <div class="card-body">
+                        <h4><del>3.00zł</del> 2.30zł <span class="badge text-bg-secondary">przecena</span></h5>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- /.row -->
-
-        <!-- Feature Row -->
-        <div class="row">
-            <article class="col-md-4 article-intro">
-                
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                <h3>
-                    <a>tekst 3 sfvgdrfgreddgr</a>
-                </h3>
-                <p>tekst 4 srfthsthrsthrh</p>
-            </article>
-            <article class="col-md-4 article-intro">
-                
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                <h3>
-                    <a>tekst 5 sfxbhfrsdb</a>
-                </h3>
-                <p>tekst 6 sdefasefefr</p>
-            </article>
-
-            <article class="col-md-4 article-intro">
-                <a>
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a >tekst 7 fswdf</a>
-                </h3>
-                <p>tekst 8fdvbggbhdfgbgbvfdg</p>
-            </article>
-        </div>
-        <!-- /.row -->
-
     </div>
-    <!-- /.container -->
-	
-	
-  
+
+    </div> <!-- /.container -->
+
 	
     <!-- jQuery -->
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -143,6 +187,17 @@
 	
 	<!-- Placeholder Images -->
 	<script src="js/holder.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $('.nav-link').click(function(e){
+            e.preventDefault(); // Zapobieganie domyślnemu zachowaniu linku
+            var targetDiv = $(this).data('target'); // Pobieranie celu z atrybutu data-target
+            $('.content-div').hide(); // Ukrywanie wszystkich DIV
+            $(targetDiv).show(); // Pokazywanie odpowiedniego DIV
+        });
+        });
+    </script>
 	
 </body>
 
