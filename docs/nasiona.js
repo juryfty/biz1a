@@ -1,7 +1,7 @@
 
 
 
-const imagesArray = [
+const imagesArrayXXX = [
 {"url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14675/Nasiona-PNOS---lewkonia-Excelsior.jpg", "description":"Lewkonia Excelsior PARIA wiśniowo-wrzosowa 1g"},
 {"url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14668/Nasiona-PNOS---lewkonia-Excelsior.jpg", "description":"Lewkonia Excelsior WEISS biała 1g"},
 {"url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14681/Nasiona-PNOS---lewkonia-jednopedowa-Varsovia.jpg", "description":"Lewkonia Varsovia BONA jasnożółta 1g"},
@@ -660,6 +660,214 @@ const imagesArray = [
 {"url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14672/Nasiona-PNOS---lewkonia-Excelsior.jpg", "description":"Lewkonia Excelsior OPAL biała 1g"}
 ];
 
+imagesArray = [
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14826/Nasiona-PNOS---Zlocien-ogrodowy.jpg",
+        "description": "Złocień OGRODOWY mieszany 0,3g",
+        "sales_pitch": "Wypełnij swój ogród jasnymi barwami tego mieszanka złocienia. Idealny wybór dla kolorowych rabat i bujnych kwiatowych dekoracji."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14951/Nasiona-PNOS---zlocien-wlasciwy.jpg",
+        "description": "Złocień właściwy RIESENSTERN biały 1g",
+        "sales_pitch": "Zasadź te eleganckie, białe złocień w swoim ogrodzie dla dodania klasy i stylu. Perfekcyjnie sprawdzi się w każdej kompozycji kwiatowej."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14830/Nasiona-PNOS---Zurawka.jpg",
+        "description": "Żurawka SZKARŁATNA 0,1g",
+        "sales_pitch": "Żurawka szkarłatna doda intensywnego koloru do Twoich rabat i donic. Idealna dla tych, którzy cenią sobie niskie wymagania pielęgnacyjne."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14829/Nasiona-PNOS---zlocien.jpg",
+        "description": "Złocień trójbarwny FROHE MISCHUNG mieszany 1g",
+        "sales_pitch": "Dodaj barwne akcenty do swojego ogrodu dzięki mieszance trójbarwnego złocienia. Łatwa w uprawie i zawsze efektowna."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14827/Nasiona-PNOS---zlocien-trwaly-rozowy-mix.jpg",
+        "description": "Złocień trwały ROBINSON mieszany 0,5g",
+        "sales_pitch": "Wzbogacenie Twojego ogrodu o te trwałe, różowe złocień zapewni długotrwałą ozdobę wiosenną i letnią. Niezawodny wybór dla każdego ogrodnika."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14630/Nasiona-PNOS---godecja-wielkokwiatowa-czerwona.jpg",
+        "description": "Godecja WIELKOKWIATOWA czerwona 1g",
+        "sales_pitch": "Czerwona godecja wielkokwiatowa stanie się spektakularną gwiazdą Twojego ogrodu. Idealne nasiona dla efektownych, kolorowych klombów."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14575/Nasiona-PNOS---Nasiona-kwiatow---Cynia-Golden-Down.jpg",
+        "description": "Cynia daliowa GOLDEN DAWN ŻÓŁTA 1g",
+        "sales_pitch": "Złote, pełne kwiaty cynii daliowej będą pięknie świecić w Twoim ogrodzie. Odporna na suszę i choroby, idealna dla każdego miejsca."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14824/Nasiona-PNOS---zeniszek-meksykanski-rozowy.jpg",
+        "description": "Żeniszek PINK BALL różowy 0,3g",
+        "sales_pitch": "Urocze, różowe żeniszki to idealny wybór na obwódki lub jako punkt centralny w kompozycjach kwiatowych. Łatwe w uprawie i bardzo dekoracyjne."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14951/Nasiona-PNOS---zlocien-wlasciwy.jpg",
+        "description": "Złocień właściwy RIESENSTERN biały 1g",
+        "sales_pitch": "Stwórz niepowtarzalny klimat w swoim ogrodzie dzięki białym, dużym kwiatom złocienia. Wyjątkowo piękne, gdy kwitną w grupach."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_15127/Nasiona-PNOS---Nasiona-Kwiatow---bratek-szwajcarski-goldgelb.jpg",
+        "description": "Bratek szwajcarski GOLDGELB ŻÓŁTY 0,8g",
+        "sales_pitch": "Pochwal się złocistymi bratkami szwajcarskimi w swoim ogrodzie. Te urocze kwiaty przyciągną wzrok każdego przechodnia."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14820/Nasiona-PNOS---Zagwin-mix.jpg",
+        "description": "Żagwin MIESZANKA 0,3g",
+        "sales_pitch": "Kolorowa mieszanka żagwina doda uroku każdej części ogrodu. Idealne do uprawy w miejscach cienistych oraz jako dopełnienie bukietów."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14580/Nasiona-PNOS---Nasiona-kwiatow---cynia-kobold-mix.jpg",
+        "description": "Cynia KOBOLD mieszana 1g",
+        "sales_pitch": "Przyciągnij motyle do swojego ogrodu dzięki kolorowym i łatwym w uprawie cyniom Kobold. Idealne do granic ogrodowych i jako kwiaty cięte."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14798/Nasiona-PNOS---Szarotka-alpejska.jpg",
+        "description": "Szarotka ALPEJSKA 0,1g",
+        "sales_pitch": "Zasadź szarotkę alpejską, by dodać alpejskiego charakteru Twojemu skalniakowi lub rabacie. Małe, ale wytrzymałe i bardzo dekoracyjne."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14609/Nasiona-PNOS---Nasiona-kwiatow---fiolek-zwieszajacy-sie-zolty.jpg",
+        "description": "Fiołek ZWIESZAJĄCY SIĘ żółty 0,3g",
+        "sales_pitch": "Ożyw swój balkon żółtymi, zwieszającymi się fiołkami. Te delikatne kwiaty stworzą romantyczną atmosferę w Twojej przestrzeni."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_15119/Nasiona-PNOS---Nasiona-Kwiatow---zlocien-karlowy-bialy.jpg",
+        "description": "Złocień karłowy biały 0,3g",
+        "sales_pitch": "Dodaj białe akcenty do swojego ogrodu dzięki karłowemu złocieniowi. Świetny wybór do niewielkich przestrzeni i na obwódki."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14732/Nasiona-PNOS---naparstnica-trwala.jpg",
+        "description": "Naparstnica TRWAŁA GLOXINIAEFLORA mieszana 1g",
+        "sales_pitch": "Udekoruj swój ogród wysokimi, kolorowymi naparstnicami, które dodadzą pionowego wymiaru i wizualnego zainteresowania."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14830/Nasiona-PNOS---Zurawka.jpg",
+        "description": "Żurawka SZKARŁATNA 0,1g",
+        "sales_pitch": "Dodaj koloru do cienistych zakątków swojego ogrodu z żurawką szkarłatną. Niska pielęgnacja i długotrwała ozdoba gwarantowane."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14951/Nasiona-PNOS---zlocien-wlasciwy.jpg",
+        "description": "Złocień właściwy RIESENSTERN biały 1g",
+        "sales_pitch": "Idealne rozwiązanie na eleganckie, białe kompozycje w Twoim ogrodzie. Złocień właściwy dodaje klasy i stylu każdej przestrzeni."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14820/Nasiona-PNOS---Zagwin-mix.jpg",
+        "description": "Żagwin MIESZANKA 0,3g",
+        "sales_pitch": "Żagwin to idealny wybór do cienistych zakątków ogrodu lub jako uzupełnienie do bukietów i kompozycji kwiatowych."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_15120/Nasiona-PNOS---Nasiona-Kwiatow---zlocien-wiencowy-jastrun.jpg",
+        "description": "Złocień wieńcowy JASTRUŃ 1,5g",
+        "sales_pitch": "Złocień wieńcowy Jastruń doda unikalnych barw i form do Twojego ogrodu. Idealny do większych, otwartych przestrzeni."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14820/Nasiona-PNOS---Zagwin-mix.jpg",
+        "description": "Żagwin MIESZANKA 0,3g",
+        "sales_pitch": "Odkryj urok żagwina z tą kolorową mieszanką idealną do cienistych miejsc. Łatwa w uprawie i bardzo dekoracyjna."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14539/Nasiona-PNOS---Nasiona-kwiatow---aster-ksiazecy-czerwony.jpg",
+        "description": "Aster KSIĄŻĘCY czerwony 0,8g",
+        "sales_pitch": "Czerwony aster książęcy to doskonały wybór na kwiat cięty. Dodaj majestatycznych akcentów do swojego ogrodu i bukietów."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14686/Nasiona-PNOS---lewkonia-jednopedowa-Varsovia.jpg",
+        "description": "Lewkonia Varsovia JAGA jasnolila-różowa 1g",
+        "sales_pitch": "Poczuj magię wiosny z jasnolilą-różową lewkonią. Idealna do dekoracji ogrodowych, balkonowych i jako kwiat cięty."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14829/Nasiona-PNOS---zlocien.jpg",
+        "description": "Złocień trójbarwny FROHE MISCHUNG mieszany 1g",
+        "sales_pitch": "Radosna mieszanka trójbarwnego złocienia wprawi w dobry nastrój każdego, kto spojrzy na Twoj ogród. Idealny wybór dla miłośników kolorów."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_15351/Nasiona-PNOS---zlocien-wielki-crazy-daisy.jpg",
+        "description": "Złocień wielki CRAZY DAISY biały 0,2g",
+        "sales_pitch": "Zaskocz swoich gości niezwykłym złocieniem wielkim Crazy Daisy. Jego białe, pełne kwiaty będą ozdobą każdego ogrodu."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14736/Nasiona-PNOS---nasturcja-pnaca-mix.jpg",
+        "description": "Nasturcja PNĄCA mieszana 6g",
+        "sales_pitch": "Pnąca nasturcja w różnych kolorach to świetna ozdoba ogrodzeń i altan. Łatwa w uprawie i bardzo efektowna."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14829/Nasiona-PNOS---zlocien.jpg",
+        "description": "Złocień trójbarwny FROHE MISCHUNG mieszany 1g",
+        "sales_pitch": "Ożyw swój ogród mieszanką trójbarwnego złocienia, który zapewni ciągłe kwitnienie i kolorowe akcenty przez całe lato."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_15120/Nasiona-PNOS---Nasiona-Kwiatow---zlocien-wiencowy-jastrun.jpg",
+        "description": "Złocień wieńcowy JASTRUŃ 1,5g",
+        "sales_pitch": "Niech Twój ogród stanie się miejscem pełnym uroku dzięki złocieniowi wieńcowemu. Idealne nasiona dla osób ceniących naturalny wygląd ogrodu."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14678/Nasiona-PNOS---lewkonia-jednopedowa-Varsovia.jpg",
+        "description": "Lewkonia Varsovia DORA jasnożółta 1g",
+        "sales_pitch": "Dodaj pastelowych barw do swojego ogrodu z jasnożółtą lewkonią. Idealna do sadzenia w grupach dla lepszego efektu wizualnego."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14705/Nasiona-PNOS---malope-mix.jpg",
+        "description": "Malope mieszana 1g",
+        "sales_pitch": "Malope to łatwa w uprawie i spektakularna ozdoba każdego ogrodu. Mieszanka barw z pewnością przyciągnie wzrok."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14823/Nasiona-PNOS---zeniszek-meksykanski-niebieski.jpg",
+        "description": "Żeniszek TETRA BLUE MINK modrofioletowy 0,5g",
+        "sales_pitch": "Niebieskie odcienie żeniszka dodadzą spokoju i elegancji do Twojego ogrodu. Idealne do łączenia z innymi roślinami o jasnych barwach."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14826/Nasiona-PNOS---Zlocien-ogrodowy.jpg",
+        "description": "Złocień OGRODOWY mieszany 0,3g",
+        "sales_pitch": "Przyciągnij uwagę żywymi barwami mieszanych złocieni ogrodowych. Te kwiaty są idealne do stworzenia kolorowej, radosnej atmosfery."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_15351/Nasiona-PNOS---zlocien-wielki-crazy-daisy.jpg",
+        "description": "Złocień wielki CRAZY DAISY biały 0,2g",
+        "sales_pitch": "Ożyw swój ogród z białymi, pełnymi kwiatami złocienia wielkiego Crazy Daisy. Idealne dla tych, którzy szukają niezwykłych i trwałych kwiatów."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14777/Nasiona-PNOS---slonecznik-ozdobny-sonnengold.jpg",
+        "description": "Słonecznik ozdobny SONNENGOLD niski żółty 2g",
+        "sales_pitch": "Rozświetl swój ogród żółtymi słonecznikami Sonnengold. Ich jasne kwiaty będą pięknie kontrastować z zielonym otoczeniem."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_13695/naparstnica-welnista-OK-638-15-miod-PSOc3.jpg",
+        "description": "Naparstnica wełnista 1g",
+        "sales_pitch": "Naparstnica wełnista to wyjątkowy dodatek do każdego ogrodu, szczególnie tych o naturalistycznym charakterze. Atrakcyjna i łatwa w pielęgnacji."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14625/Nasiona-PNOS---godecja-karlowa-mix.jpg",
+        "description": "Godecja KARŁOWA mieszana 1g",
+        "sales_pitch": "Zachwyć się bogactwem kolorów karłowej godecji, która idealnie sprawdzi się jako niska rabata kwiatowa. Łatwa w uprawie i bardzo dekoracyjna."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14543/Nasiona-PNOS---Nasiona-kwiatow---aster-peoniowy-bialorozowy.jpg",
+        "description": "Aster PEONIOWY białoróżowy 0,8g",
+        "sales_pitch": "Te białoróżowe astery peoniowe przyniosą elegancję i delikatność do Twojego ogrodu. Idealne na kwiaty cięte i wspaniałe w każdym bukiecie."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14678/Nasiona-PNOS---lewkonia-jednopedowa-Varsovia.jpg",
+        "description": "Lewkonia Varsovia DORA jasnożółta 1g",
+        "sales_pitch": "Jasnożółta lewкония Varsovia Dora doda ciepła i światła do każdego zakątka Twojego ogrodu. Idealne do uprawy w grupach dla maksymalnego efektu."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14824/Nasiona-PNOS---zeniszek-meksykanski-rozowy.jpg",
+        "description": "Żeniszek PINK BALL różowy 0,3g",
+        "sales_pitch": "Różowy żeniszek to doskonały wybór dla każdego, kto chce dodać koloru i życia do swojego ogrodu. Efektowny i łatwy w uprawie."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14951/Nasiona-PNOS---zlocien-wlasciwy.jpg",
+        "description": "Złocień właściwy RIESENSTERN biały 1g",
+        "sales_pitch": "Dodaj elegancję do swojego ogrodu z białymi kwiatami złocienia właściwego. Idealny dla tych, którzy cenią sobie klasyczne piękno."
+    },
+    {
+        "url": "https://pnos.pl//environment/cache/images/300_300_productGfx_14826/Nasiona-PNOS---Zlocien-ogrodowy.jpg",
+        "description": "Złocień OGRODOWY mieszany 0,3g",
+        "sales_pitch": "Ożyw swój ogród z tym mieszanką złocienia ogrodowego. Idealny dla osób, które chcą dodać koloru i witalności do swojego zielonego azylu."
+    }];
+
+
 function getRandomSubarray(arr, size) {
     const shuffled = arr.slice(0); // klonuje tablicę
     let i = arr.length;
@@ -676,6 +884,18 @@ function getRandomSubarray(arr, size) {
     return shuffled.slice(0, size); // zwraca podtablicę o rozmiarze `size`
 }
 
+function generatePrice(min, max) {
+    if (min > max) {
+      console.error("Minimalna wartość nie może być większa od maksymalnej.");
+      return;
+    }
+    // Generuje losową wartość z przecinkiem między min a max
+    const price = Math.random() * (max - min) + min;
+    // Zaokrągla wynik do dwóch miejsc po przecinku
+    return price.toFixed(2);
+  }
+  
+
 function loadNasiona() {
 // Pobranie elementu, w którym będą wyświetlane obrazy
 const imagesHolder = document.getElementById('images-row');
@@ -686,13 +906,15 @@ const shuffled  = getRandomSubarray(imagesArray, 8);
 // Iteracja przez każdy URL w tablicy i tworzenie elementów HTML dla każdego obrazu
 shuffled.forEach(data => {
     const colDiv = document.importNode(template.get(0), true);
-    $(colDiv).show();
+    $(colDiv).css({display: "inline-table"});
     const imgElement = $(colDiv).find('.card-img-top').get( 0 );
     imgElement.src = data.url;
     imgElement.className = 'img-fluid';  // Styl Bootstrapa dla responsywności obrazów
     $(colDiv).find('.card-title').text(data.description);
-
+    $(colDiv).find('.card-text').text(data.sales_pitch);
+    $(colDiv).find('.price').text(generatePrice(3, 10) + 'PLN');
     //colDiv.appendChild(imgElement);
     imagesHolder.appendChild(colDiv);
 });
+
 }
