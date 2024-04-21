@@ -901,7 +901,7 @@ function loadNasiona() {
 const imagesHolder = document.getElementById('images-row');
 const template = $('#nasiona-temp');
 
-const shuffled  = getRandomSubarray(imagesArray, 8);
+const shuffled  = getRandomSubarray(imagesArray, 20);
 
 // Iteracja przez każdy URL w tablicy i tworzenie elementów HTML dla każdego obrazu
 shuffled.forEach(data => {
