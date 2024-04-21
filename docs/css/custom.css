@@ -1,6 +1,6 @@
 body {
-	padding-top: 50px;
-	color: #d5b2b2;
+	background-color: #343a40;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 	
 h1, h2, h3, h4, h5, h6 {
@@ -30,3 +30,43 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #ffffff;
 	padding: 30px 0;
 }
+
+.content-div {
+	left: 100%; /* Start outside of the view */
+	top: 0;
+}
+
+.jumbotron-bg {
+	background: url("../gfx/b.webp") no-repeat ;
+	background-size: cover;
+    background-position-y: center;
+	margin-bottom: 0;
+}
+
+.main-page {
+	background-color: #eee;
+}
+
+.container-glass {
+	background: #00000066;
+	border-radius: 15px;
+	padding-bottom: 12px;
+}
+
+.title {
+	color: #FFF;
+}
+
+.container-glass P {
+	font-size: 21px;
+    font-weight: 200;
+}
+
+.card-columns {
+	@include media-breakpoint-only(lg) {
+	  column-count: 4;
+	}
+	@include media-breakpoint-only(xl) {
+	  column-count: 5;
+	}
+  }
