@@ -1,6 +1,6 @@
 body {
-	padding-top: 50px;
 	color: #d5b2b2;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 	
 h1, h2, h3, h4, h5, h6 {
@@ -32,6 +32,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-div {
-left: 100%; /* Start outside of the view */
-top: 0;
+	left: 100%; /* Start outside of the view */
+	top: 0;
+}
+
+.jumbotron-bg {
+	background: url("../gfx/b.webp") no-repeat ;
+	background-size: cover;
+    background-position-y: center;
+}
+
+.container-glass {
+	background: #00000066;
+	border-radius: 15px;
+	padding-bottom: 12px;
+}
+
+.title {
+	color: #FFF;
+}
+
+.container-glass P {
+	font-size: 21px;
+    font-weight: 200;
 }
