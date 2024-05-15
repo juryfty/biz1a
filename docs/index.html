@@ -51,10 +51,13 @@
                         <a href="#" data-target="#div1" class="nav-link">główna strona</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" data-target="#div2" class="nav-link">podaruj kwiaty w prezęcie!</a>
+                        <a href="#" id="nav1" data-target="#div2" class="nav-link">podaruj kwiaty w prezęcie!</a>
                     </li>
                     <li class="nav-item">
                         <a href="*" data-target="#div3" class="nav-link">kup nasiona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="*" id="nav2" data-target="#div5" class="nav-link">zamówienia</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" data-target="#div4" class="nav-link">o nas</a>
@@ -87,7 +90,7 @@
             <p>Odkryj radość z własnoręcznie hodowanych roślin, korzystając z naszych starannie wyselekcjonowanych
                 nasion, które obiecują nie tylko piękno, ale i obfitość. Dołącz do naszej społeczności ogrodniczej i
                 zobacz, jak prosty może być początek przygody z naturą!</p>
-            <p><a class="btn btn-primary nav-link" href="#" data-target="#div3" style="display: inline;">przeglądaj teraz!</a></p>
+            <p></p>
         </div>
     </div>
 
@@ -96,9 +99,10 @@
     <div class="container" id="containerid">
         <div class="pages">
             <div id="div1" class="content-div" include-html="main.html"></div>
-            <div id="div2" class="content-div" style="display:none;">Content for DIV 2</div>
+            <div id="div2" class="content-div" style="display:none;" include-html="kwiaty.html"></div>
             <div id="div3" class="content-div" style="display:none;" include-html="nasiona.html"></div>
             <div id="div4" class="content-div" style="display:none;" include-html="onas.html"></div>
+            <div id="div5" class="content-div" style="display:none;" include-html="zamowienia.html"></div>
         </div>
     </div>
 </div>
@@ -122,6 +126,7 @@
 
     <!-- custom -->
     <script src="nasiona.js"></script>
+    <script src="kwiaty.js"></script>
     <script src="js/custom.js"></script>
 
 </body>

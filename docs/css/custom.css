@@ -70,3 +70,31 @@ h1, h2, h3, h4, h5, h6 {
 	  column-count: 5;
 	}
   }
+
+  .kwiaciarnia {
+	background: url('../gfx/kwiaciarnia.webp') no-repeat center center;
+  }
+
+  .card-custom {
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin: 10px;
+	flex: 1 1 calc(33.333% - 20px);
+	box-sizing: border-box;
+}
+
+  .hero {
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 100px 0;
+  }
+  .section-title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-weight: bold;
+  }
+  .benefit {
+	padding: 15px;
+  }

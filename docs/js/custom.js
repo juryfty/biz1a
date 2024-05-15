@@ -26,7 +26,7 @@ function includeHTML() {
     }
 };
 
-$(document).ready(function(){
+function reloadNavLink() {
     $('.nav-link').click(function(e){
         e.preventDefault(); // Zapobieganie domyślnemu zachowaniu linku
         var targetDiv = $(this).data('target'); // Pobieranie celu z atrybutu data-target
@@ -35,6 +35,14 @@ $(document).ready(function(){
         if (targetDiv === '#div3') {
             loadNasiona();
         }
+        if (targetDiv === '#div2') {
+            loadKwiaty();
+        }
     });
+}
+
+$(document).ready(function(){
     includeHTML();
+    reloadNavLink();
 });
+
